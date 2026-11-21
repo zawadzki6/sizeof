@@ -5,13 +5,10 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-/* -----------------------------------------------------------------------------
- * sizeof - for when stat is too big
- * there's no point in licensing less 20 lines of code. use it how you want.
- *
- *                                              ~authentic zawadzki 2026
- * -----------------------------------------------------------------------------
- */
+/* -------------------------------------------------------------------------------
+ * sizeof - for when stat is too bloated
+ * there's no point in licensing less than 20 lines of code. use it how you want.
+ * ------------------------------------------------------------------------------- */
 
 int main(int argc, char *argv[]) {
     if (argc == 0)
